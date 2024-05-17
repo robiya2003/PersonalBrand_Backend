@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace PersonalBrand.Application.UseCases.IdentitieCases.Commands
 {
+   
     public class DeleteUserCommand: IRequest<ResponseModel>
     {
         public Guid Id { get; set; }
